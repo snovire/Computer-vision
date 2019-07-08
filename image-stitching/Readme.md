@@ -9,3 +9,4 @@
  - Using SIFT algorithm to extract features from two images, calculate the cosine similarity between features from different images. Find a certain number of best-matching pairs according to their cosine similariy
  - Use the matching points to construct a Homographical matrix that represents the transformation from one image to another.
  - Use the homographical matrix to transform feature points in the test set. Use RANSAC to select different combinations of feature points and find the best homographical matrix.
+ - Each time two of the images in image source folder are stitched and one "bigger" image is created. The remaining images will be stitched recursively.
